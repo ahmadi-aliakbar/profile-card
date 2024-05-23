@@ -10,13 +10,22 @@ body {
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 nav {
     background-color: #333;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -41,14 +50,19 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 main section {
     background-color: white;
-    margin: 1rem 0;
-    padding: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    margin-top: 0;
 }
 
 footer {
